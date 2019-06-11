@@ -12,9 +12,7 @@
           <dt>
             <a href="https://stackoverflow.com/">Stack Overflow</a>
           </dt>
-          <dd>
-            <strong>$17</strong> per user/month (~$50,000/year for 250 users)
-          </dd>
+          <dd><strong>$17</strong> per user/month</dd>
           <dt>
             <a href="https://www.discourse.org/">Discourse</a>
           </dt>
@@ -37,3 +35,19 @@ export default Vue.extend({
   components: { PresentationStepLayout },
 })
 </script>
+<style>
+dl {
+  padding-left: 3rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: [dt] 45% [dd] 65%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+dt {
+  display: list-item;
+  list-style-image: url('../../assets/star-outline.svg');
+}
+dd {
+  display: inline-block;
+}
+</style>

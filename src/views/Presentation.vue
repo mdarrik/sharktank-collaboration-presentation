@@ -1,8 +1,8 @@
 <template>
   <v-layout align-center justify-center>
     <v-flex xs10>
-      <v-card>
-        <v-stepper class="elevation-0" v-model="currentStep">
+      <v-card class="flex-card">
+        <v-stepper class="elevation-0 full-height" v-model="currentStep" grow>
           <v-stepper-header class="mb-5">
             <v-stepper-step
               :complete="currentStep > 1"
@@ -62,7 +62,7 @@
             </v-stepper-content>
           </v-stepper-items>
         </v-stepper>
-        <v-card-actions>
+        <v-card-actions class="fixed-bottom">
           <v-btn color="secondary">
             <v-icon>arrow_back</v-icon>
             <v-spacer></v-spacer>Back
@@ -120,9 +120,30 @@ export default Vue.extend({
 })
 </script>
 <style>
-li {
+ul {
   list-style-image: url('../assets/star.svg');
   list-style-position: outside;
-  padding-left: 2rem;
+  padding-left: 2em;
+}
+li,
+dd {
+  margin-bottom: 2rem;
+  padding-left: 12px;
+}
+
+.star-list-image {
+  list-style-image: url('../assets/star.svg');
+}
+.star-outline-list-image {
+  list-style-image: url('../assets/star-outline.svg');
+}
+
+.full-height {
+  min-height: 800px;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: column;
 }
 </style>
