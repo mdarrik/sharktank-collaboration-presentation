@@ -137,13 +137,4 @@ dd {
 .star-outline-list-image {
   list-style-image: url('../assets/star-outline.svg');
 }
-
-.full-height {
-  min-height: 800px;
-}
-
-.flex-card {
-  display: flex;
-  flex-direction: column;
-}
 </style>

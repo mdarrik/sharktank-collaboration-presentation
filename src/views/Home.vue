@@ -1,11 +1,12 @@
 <template>
   <v-layout align-center justify-center>
     <v-flex xs10>
-      <v-card>
+      <v-card class="flex-card full-height">
         <v-img
           :src="require('../assets/undraw_software_engineer_lvl5.svg')"
           contain
           height="300px"
+          class="pt-5 mt-3"
         ></v-img>
         <v-card-title class="d-block text-xs-center">
           <h1>Improving Developer Collaboration</h1>
