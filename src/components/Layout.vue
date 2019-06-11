@@ -6,7 +6,7 @@
       </v-toolbar>
     </header>
     <v-content>
-      <v-container fluid tag="main">
+      <v-container fluid>
         <slot></slot>
       </v-container>
     </v-content>
