@@ -8,11 +8,13 @@
         No Adoption
         <ul>
           <li>Idea Is Well Wanted</li>
-          <li>Actions To Support Adoption</li>
-          <ul>
-            <li>Upper Management Support</li>
-            <li>Enthusiastic Early Adopter Group</li>
-          </ul>
+          <li>
+            Actions To Support Adoption
+            <ul>
+              <li>Upper Management Support</li>
+              <li>Enthusiastic Early Adopter Group</li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>
