@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <header>
-      <v-toolbar clipped-left app absolute>
+      <v-toolbar clipped-left app absolute class="primary white--text">
         <v-toolbar-title>L&I IT Shark Tank Presentation</v-toolbar-title>
       </v-toolbar>
     </header>
