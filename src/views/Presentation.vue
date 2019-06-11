@@ -62,7 +62,7 @@
             </v-stepper-content>
           </v-stepper-items>
         </v-stepper>
-        <v-card-actions class="fixed-bottom">
+        <v-card-actions>
           <v-btn color="secondary">
             <v-icon>arrow_back</v-icon>
             <v-spacer></v-spacer>Back
