@@ -1,0 +1,6 @@
+.primary {
+    background-color: var(--v-primary-base)
+}
+.secondary {
+    background-color: var(--v-secondary-base)
+}

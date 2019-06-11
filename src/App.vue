@@ -10,4 +10,5 @@ export default {
   name: 'App',
   components: { Layout },
 }
+require('./styles/base.css')
 </script>
