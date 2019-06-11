@@ -1,6 +1,12 @@
 .primary {
-    background-color: var(--v-primary-base)
+  background-color: #536dfe !important;
+  background-color: var(--v-primary-base) !important;
+  border-color: #536dfe;
+  border-color: var(--v-primary-base);
 }
 .secondary {
-    background-color: var(--v-secondary-base)
+  background-color: #38d39f !important;
+  background-color: var(--v-secondary-base) !important;
+  border-color: #38d39f;
+  border-color: var(--v-secondary-base);
 }
