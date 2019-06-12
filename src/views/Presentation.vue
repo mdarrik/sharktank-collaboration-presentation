@@ -63,7 +63,7 @@
           </v-stepper-items>
         </v-stepper>
         <v-card-actions>
-          <v-btn color="secondary">
+          <v-btn color="secondary" @click="decrementStep">
             <v-icon>arrow_back</v-icon>
             <v-spacer></v-spacer>Back
           </v-btn>
