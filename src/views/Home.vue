@@ -14,8 +14,7 @@
         </v-card-title>
         <v-card-actions>
           <v-layout row wrap align-center justify-center>
-            <!-- eslint-disable vue-a11y/no-autofocus-->
-            <v-btn to="/Presentation" autofocus>Begin</v-btn>
+            <v-btn to="/Presentation" ref="presentationLink">Begin</v-btn>
           </v-layout>
         </v-card-actions>
       </v-card>
