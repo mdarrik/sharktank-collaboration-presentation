@@ -6,6 +6,12 @@
     <ul class="display-2">
       <li>Centralized Collaboration Solution</li>
     </ul>
+    <v-img
+      :src="require('../../assets/undraw_collaboration.svg')"
+      contain
+      height="400px"
+      width="600px"
+    ></v-img>
   </presentation-step-layout>
 </template>
 
