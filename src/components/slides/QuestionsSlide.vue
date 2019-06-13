@@ -5,7 +5,7 @@
       <v-img
         :src="require('../../assets/undraw_questions.svg')"
         contain
-        height="500px"
+        height="400px"
         width="600px"
       ></v-img>
     </template>
