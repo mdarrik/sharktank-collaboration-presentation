@@ -68,13 +68,7 @@
             <v-spacer></v-spacer>Back
           </v-btn>
           <v-spacer></v-spacer>
-          <!-- eslint-disable vue-a11y/no-autofocus-->
-          <v-btn
-            color="primary"
-            aria-label="Forward"
-            @click="incrementStep"
-            autofocus
-          >
+          <v-btn color="primary" aria-label="Forward" @click="incrementStep">
             Forward
             <v-spacer></v-spacer>
             <v-icon medium>arrow_forward</v-icon>
